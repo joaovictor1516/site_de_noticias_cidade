@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+/* parte do topo */
+header{
+    background: #294C71 url(../imagens/detalhe-topo.png) no-repeat right top;
+    width: 750px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#topo{
+    width: 720px;
+    padding-top: 25px;
+}
+
+#topo ul{
+    background-color: #b10333;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo li{
+    float: left;
+}
+
+#topo a{
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo a:hover{
+    color: #69001d;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat left center;
+    text-indent: -30000px;
+}
+
+.home #home a, 
+.brasil #brasil a,
+.internacional #internacional a,
+.economia #economia a,
+.saude #saude a,
+.ciencia #ciencia a,
+.fotos #fotos a{
+    background-color: #de003e;
+    cursor: text;
+}
+
+#home a{
+    background: none;
+}
+
+/* parte central */
+main{
+    width: 750px;
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    float: right;
+    background-color: aqua;
+}
+
+#secundario{
+    width: 270px;
+    float: right;
+    background-color: yellow;
+}
+
+#lateral{
+    width: 180px;
+    float: right;
+    background-color: violet;
+}
+
+/* farte do rodape */
+
+footer{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 720px;
+    margin: 0 auto;
+    color: #fff;
+}
