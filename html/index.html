@@ -37,13 +37,29 @@
     </header>
 
     <main>
-        <div id="primario">primario</div>
-        <div id="secundario">secundario</div>
-        <div id="lateral">
-            <h2>Últimas notícias</h2>
-            <!-- <ul>
-            </ul> -->
+        <!-- a div com o id secundario irá aparecer primeiro, mas para fins de acessibiidade iremos deijar nessa ordem, pois como os leitores de tela leem os conteudos em blocos, é mais interesante que o conteudo principal seja o primeiro-->
+
+        <div id="primario">
+            <h3>primario</h3>
         </div>
+        
+        <div id="secundario">
+            <h3>secundario</h3>
+        </div>
+
+        <div id="lateral">
+            <div id="menu_lateral">
+                <h3>Entrevistas</h3>
+                <ul>
+                    <li><a href="#">José Almeida</a></li>
+                    <a href="#">
+                        <li>Felipe Silva</li>
+                    </a>
+                    <li><a href="#">Renato Rodrigues</a></li>
+                </ul>
+            </div>
+        </div>
+        <p style="clear: both;"></p>
     </main>
 
     <footer>

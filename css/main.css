@@ -79,26 +79,38 @@ a{
 /* parte central */
 main{
     width: 750px;
-    margin-top: 60px;
+    margin: 60px auto 0 auto;
     background: #f5f5f5;
 }
 
 #primario{
     width: 270px;
-    float: right;
+    float: left;
+    margin: 0 0 20px 195px;
     background-color: aqua;
 }
 
 #secundario{
     width: 270px;
-    float: right;
+    float: left;
+    margin: 0 0 20px 15px;
     background-color: yellow;
+}
+
+h3{
+    background-color: #294970;
+    color: #F7FEFF;
 }
 
 #lateral{
     width: 180px;
-    float: right;
-    background-color: violet;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#menu_lateral li:hover{
+    background: url(../imagens/marcador.png)no-repeat left center;
+    padding-left: 1.4em;
 }
 
 /* farte do rodape */
