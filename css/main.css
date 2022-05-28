@@ -84,10 +84,21 @@ main{
 }
 
 #primario{
-    width: 270px;
     float: left;
     margin: 0 0 20px 195px;
     background-color: aqua;
+}
+
+#tres_colunas #primario{
+    width: 270px;
+}
+
+#duas_colunas #primario{
+    width: 555px;
+}
+
+#uma_coluna #primario{
+    width: 750px;
 }
 
 #secundario{
