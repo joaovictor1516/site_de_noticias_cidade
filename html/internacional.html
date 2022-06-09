@@ -7,34 +7,60 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>As ultimas notícias da sua cidade</title>
 </head>
-<body>
-    <header class="internacional">
-        <div id="topo">
-            <h1 class="logo">Notícias cidade</h1><!--O texto ajuda na acessibilidade no caso de uma imagem de fundo, pois o texto inforando o logo vai aparecer caso o css não seja carregado-->
+<header class="internacional">
+    <div id="topo">
+        <h1 class="logo">Notícias cidade</h1><!--O texto ajuda na acessibilidade no caso de uma imagem de fundo, pois o texto inforando o logo vai aparecer caso o css não seja carregado-->
+        <ul>
+            <li id="home">
+                <a href="index.html">Home</a>
+            </li>
+            <li id="brasil">
+                <a href="brasil.html">Brasil</a>
+            </li>
+            <li id="internacional">
+                <a href="internacional.html">Internacional</a>
+            </li>
+            <li id="economia">
+                <a href="economia.html">Economia</a>
+            </li>
+            <li id="saude">
+                <a href="saude.html">Saúde</a>
+            </li>
+            <li id="ciencia">
+                <a href="ciencia.html">Ciência</a>
+            </li>
+            <li id="fotos">
+                <a href="fotos.html">Fotos</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<main id="duas_colunas">
+
+    <div id="primario">
+        <h3>primario</h3>
+    </div>
+
+    <div id="lateral">
+        <div id="menu_lateral">
+            <h3>Entrevistas</h3>
             <ul>
-                <li id="home">
-                    <a href="index.html">Home</a>
-                </li>
-                <li id="brasil">
-                    <a href="brasil.html">Brasil</a>
-                </li>
-                <li id="internacional">
-                    <a href="internacional.html">Internacional</a>
-                </li>
-                <li id="economia">
-                    <a href="economia.html">Economia</a>
-                </li>
-                <li id="saude">
-                    <a href="saude.html">Saúde</a>
-                </li>
-                <li id="ciencia">
-                    <a href="ciencia.html">Ciência</a>
-                </li>
-                <li id="fotos">
-                    <a href="fotos.html">Fotos</a>
-                </li>
+                <li><a href="#">José Almeida</a></li>
+                <a href="#">
+                    <li>Felipe Silva</li>
+                </a>
+                <li><a href="#">Renato Rodrigues</a></li>
             </ul>
         </div>
-    </header>
+    </div>
+    <p style="clear: both;"></p>
+</main>
+
+<footer>
+    <div id="rodape">
+        &copy; Copyright 2000-2018 Notícias cidade.
+    </div>
+</footer>
 </body>
 </html>

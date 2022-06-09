@@ -86,7 +86,6 @@ main{
 #primario{
     float: left;
     margin: 0 0 20px 195px;
-    background-color: aqua;
 }
 
 #tres_colunas #primario{
@@ -99,6 +98,11 @@ main{
 
 #uma_coluna #primario{
     width: 750px;
+    margin-left: 0;
+}
+
+.imagem_grande{
+    margin: 5px 0 0 55px
 }
 
 #secundario{
@@ -138,6 +142,7 @@ footer{
     clear: both;
     background: #294c71;
     padding: 20px;
+    text-align: center;
 }
 
 #rodape{
