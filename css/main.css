@@ -9,6 +9,7 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x;
 }
+
 /* parte do topo */
 header{
     background: #294C71 url(../imagens/detalhe-topo.png) no-repeat right top;
@@ -123,6 +124,10 @@ h3{
     margin: 0 0 20px -750px;
 }
 
+#menu_lateral li{
+    padding-top: 0.8em;
+}
+
 #menu_lateral li:hover{
     background: url(../imagens/marcador.png)no-repeat left center;
     padding-left: 1.4em;
@@ -133,11 +138,10 @@ h3{
 }
 
 #menu_lateral a:hover{
-    color: #8c8c8e
+    color: #8c8c8e;
 }
 
-/* farte do rodape */
-
+/* parte do rodape */
 footer{
     clear: both;
     background: #294c71;
