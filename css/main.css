@@ -110,10 +110,9 @@ main{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background-color: yellow;
 }
 
-h3{
+h2{
     background-color: #294970;
     color: #F7FEFF;
 }
@@ -124,21 +123,41 @@ h3{
     margin: 0 0 20px -750px;
 }
 
-#menu_lateral li{
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+}
+
+.conteudo_caixa{
+    background: #F7FEFF;
+    margin-top: 5px;
+}
+
+.conteudo_caixa ul{
+    margin-bottom: 10px;
+}
+
+.conteud0_caixa li{
     padding-top: 0.8em;
 }
 
-#menu_lateral li:hover{
+.conteudo_caixa li:hover{
     background: url(../imagens/marcador.png)no-repeat left center;
     padding-left: 1.4em;
 }
 
-#menu_lateral a{
+.conteudo_caixa a{
     color: #3b3c3d;
 }
 
-#menu_lateral a:hover{
+.conteudo_caixa a:hover{
     color: #8c8c8e;
+    cursor: unset;
+}
+
+#email{
+    border: none;
+    background: #F7FEFF;
 }
 
 /* parte do rodape */

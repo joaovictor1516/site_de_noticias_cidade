@@ -10,7 +10,8 @@
 <body>
     <header class="home">
         <div id="topo">
-            <h1 class="logo">Notícias cidade</h1><!--O texto ajuda na acessibilidade no caso de uma imagem de fundo, pois o texto inforando o logo vai aparecer caso o css não seja carregado-->
+            <h1 class="logo">Notícias cidade</h1>
+            <!--O texto ajuda na acessibilidade no caso de uma imagem de fundo, pois o texto inforando o logo vai aparecer caso o css não seja carregado-->
             <ul>
                 <li id="home">
                     <a href="index.html">Home</a>
@@ -41,49 +42,64 @@
         <!-- a div com o id secundario irá aparecer primeiro, mas para fins de acessibiidade iremos deijar nessa ordem, pois como os leitores de tela leem os conteudos em blocos, é mais interesante que o conteudo principal seja o primeiro-->
 
         <div id="primario">
-            <h3>primario</h3>
+            <div class="caixa">
+                <h2>primario</h2>
+                <div class="conteudo_caixa">
+                    <h3>Ultima entrevista</h3>
+                </div>
+            </div>
         </div>
         
         <div id="secundario">
-            <h3>secundario</h3>
+            <div class="caixa">
+                <h2>secundario</h2>
+                <div class="conteudo_caixa">
+                    
+                </div>
+            </div>
         </div>
 
         <div id="lateral">
-            <div id="menu_lateral">
-                <h3>Entrevistas</h3>
-                <ul>
-                    <li>
-                        <a href="#">José Almeida</a>
-                    </li>
+            <div class="caixa">
+                <h2>Entrevistas</h2>
+
+                <div class="conteudo_caixa">
+                    <ul>
+                        <li>
+                            <a href="#">José Almeida</a>
+                        </li>
                     
-                    <li>
-                        <a href="#">Felipe Silva</a>
-                    </li>
+                        <li>
+                            <a href="#">Felipe Silva</a>
+                        </li>
                     
-                    <li>
-                        <a href="#">Renato Rodrigues</a>
-                    </li>
+                        <li>
+                            <a href="#">Renato Rodrigues</a>
+                        </li>
+                        <li>
+                            <a href="#">Adriano Silveira</a>
+                        </li>
+                        <li>
+                            <a href="#">André Carlos</a>
+                        </li>
+                        <li>
+                            <a href="#">Márcio Mello</a>
+                        </li>
+                        <li>
+                            <a href="#">João Pedro</a>
+                        </li>
+                        <li>
+                            <a href="#">Fernando Weiss</a>
+                        </li>
+                    </ul>
+                </div>
 
-                    <li>
-                        <a href="#">Adriano Silveira</a>
-                    </li>
-
-                    <li>
-                        <a href="#">André Carlos</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Márcio Mello</a>
-                    </li>
-
-                    <li>
-                        <a href="#">João Pedro</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Fernando Weiss</a>
-                    </li>
-                </ul>
+                <div class="conteudo_caixa">
+                    <h2>News</h2>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="submit" value="Cadastrar">
+                </div>
             </div>
         </div>
         <p style="clear: both;"></p>
