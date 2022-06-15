@@ -89,6 +89,18 @@ main{
     margin: 0 0 20px 195px;
 }
 
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #tres_colunas #primario{
     width: 270px;
 }
@@ -106,38 +118,30 @@ main{
     margin: 5px 0 0 55px
 }
 
-#secundario{
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
-}
-
 h2{
-    background-color: #294970;
-    color: #F7FEFF;
-}
-
-#lateral{
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
+    font-size: 1.1em;
+    background-color: #294c71;
+    color: #FFF;
+    padding: 5px;
 }
 
 .caixa{
     background: #f3f3f3 url(../imagens/fundo-caixa.png);
     margin: 10px 0;
+    padding: 5px 0;
 }
 
 .conteudo_caixa{
-    background: #F7FEFF;
-    margin-top: 5px;
+    background: #FFF;
+    margin: 5px 0;
+    padding: 5px;
 }
 
 .conteudo_caixa ul{
     margin-bottom: 10px;
 }
 
-.conteud0_caixa li{
+.conteudo_caixa li{
     padding-top: 0.8em;
 }
 
@@ -157,7 +161,7 @@ h2{
 
 #email{
     border: none;
-    background: #F7FEFF;
+    background: #FFF;
 }
 
 /* parte do rodape */
